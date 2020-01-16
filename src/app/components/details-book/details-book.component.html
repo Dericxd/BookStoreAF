@@ -1,0 +1,28 @@
+<section id="book" class="mt-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-7 mx-auto" >
+        <div class="card_book">
+          <div class="card">
+            <div class="card-body text-center">
+              <p>
+                <!--{{ book | json }}&lt;!&ndash;manera de mandar un json o de mostrarlo&ndash;&gt;-->
+                <img src="{{ book.portada }}" class="container-fluid" alt="{{ book.titulo}}">
+              </p>
+              <h4 class="card-title"> {{ book.titulo }} </h4>
+              <p class="card-text text-justify">
+                 {{ book.descripcion }}
+              </p>
+              <a href="{{ book.link_amazon }}" target="_blank" class="btn btn-block btn-primary text-uppercase">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>

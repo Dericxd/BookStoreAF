@@ -1,0 +1,28 @@
+#add {
+  border-radius: 50px;
+  /*width: 55px;*/
+  /*height: 55px;*/
+}
+
+#delete {
+  border-radius: 50px;
+  width: 39px;
+  height: 39px;
+}
+
+#update {
+  border-radius: 50px;
+  width: 39px;
+  height: 39px;
+}
+
+#tabla {
+  border-radius: 20px;
+  border-color: white;
+  border-top-color: white;
+}
+
+#tabla thead {
+  border-color: white;
+  border-top-color: white;
+}
